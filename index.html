@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');</style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__container">
+                <img class="header__logo" src="./src/img/logo.svg" alt="">
+                <div class="header__contact">
+                    <a class="header__contact_link" href="#"><img class="header__contact_img" src="./src/img/phone.svg" alt="">+7 (495) 98-100-98</a>
+                    <span class="header__contact_text">с 09:00 до 21:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__strip"></div>
+    </header>
+    <main>
+        <div class="container">
+            <a href="#" class="breadcrumb">Вернуться в корзину</a>
+            <h1 class="title">Оформление заказа</h2>
+            <div class="container__payment_inner">
+                <div class="container__payment_left">
+                    <div class="container__payment">
+                        <span class="container__payment_title">Способ оплаты</span>
+                        <div class="container__payment_inner">
+                            <div class="container__payment_card container__payment_card-active">
+                                <img class="payment__card_img" src="./src/img/card.svg" alt="">
+                                <span class="payment__card_text">Банковской картой</span>
+                            </div>
+                            <div class="container__payment_card">
+                                <img class="payment__card_img" src="./src/img/money.svg" alt="">
+                                <span class="payment__card_text">Наличными</span>
+                            </div>
+                            <div class="container__payment_card">
+                                <img class="payment__card_img" src="./src/img/calendar.svg" alt="">
+                                <span class="payment__card_text">Наличными</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__contacts_top">
+                        <span class="container__contacts_title">Контактные данные и адрес доставки</span>
+                        <div class="container__contacts_inner">
+                            <input  class="container__contacts_input" type="text" placeholder="Фамилия">
+                            <input  class="container__contacts_input" type="text" placeholder="Имя">
+                            <input  class="container__contacts_input" type="text" placeholder="Отчество">
+                        </div>
+                        <div class="container__contacts_inner">
+                            <input  class="container__contacts_input container__contacts_input-medium" type="text" placeholder="Электронная почта">
+                            <input  class="container__contacts_input container__contacts_input-medium" type="text" placeholder="Телефон">
+                        </div>
+                    </div>
+                    <div class="container__contacts_bottom">
+                        <div class="container__contacts_inner">
+                            <input  class="container__contacts_input" type="text" placeholder="Город доставки">
+                            <input  class="container__contacts_input container__contacts_input-big" type="text" placeholder="Адрес доставки">
+                        </div>
+                    </div>
+
+                    <div class="container__delivery">
+                        <span class="container__delivery_title">Способ доставки</span>
+                        <div class="container__delivery_wrapper">
+                            <div class="container__delivery_card container__delivery_card-active">
+                                <span class="delivery__card_title">2 899 ₽</span>
+                                <span class="delivery__card_text">Со подъёмом и сборкой</span>
+                            </div>
+                            <div class="container__delivery_card">
+                                <span class="delivery__card_title">2 199 ₽</span>
+                                <span class="delivery__card_text">Только по подъезда</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__payment_right">
+                    <div class="container__order container__order_top">
+                        <span class="container__order_title">Информация о заказе</span>
+                        <div class="container__order_information">
+                            <img class="order__information_img" src="./src/img/icon_product.svg" alt="">
+                            <div>
+                                <span class="order__information_text">Диван угловой Брюссель NEXT новая модель 2021 год</span>
+                                <a class="order__information_link" href="">#832424342</a>
+                            </div>
+                        </div>
+                        <div class="container__value">
+                            <span class="container__value_quantity">1 шт.</span>
+                            <span class="container__value_text">777 777 ₽</span>
+                        </div>
+                    </div>
+                    <div class="container__price">
+                        <ul class="container__price_list">
+                            <li class="container__price_item-left">Сумма скидки</li>
+                            <li class="container__price_item-left">Итоговая сумма</li>
+                            <li class="container__price_item-left">Доставка</li>
+                        </ul>
+                        <ul class="container__price_list">
+                            <li class="container__price_item-right price__item_discount">- 8 900 ₽</li>
+                            <li class="container__price_item-right">777 777 ₽</li>
+                            <li class="container__price_item-right">2 890 ₽</li>
+                        </ul>
+                    </div>
+                    <div class="container__order container__order_bottom">
+                        <div class="container__promo">
+                            <input class="promo__input" type="text" placeholder="Промокод на скидку">
+                            <button class="promo__btn">Применить</button>
+                        </div>
+                        <div class="container__points">
+                            <span class="points__text">У вас 350 бонусов</span>
+                            <a href="#" class="points__link">Списать их</a>
+                        </div>
+                        <button class="container__pay">Оформить заказ</button>
+                        <span class="payment__desc">После оформления заказа наш специалист свяжется с вами для уточнения условий доставки.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
